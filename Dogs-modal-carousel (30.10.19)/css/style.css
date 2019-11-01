@@ -1,0 +1,50 @@
+*{
+  margin: 0;
+  padding:0;
+  box-sizing: border-box;
+}
+
+.myDogs{
+  width:200px;
+  /* clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%); */
+  margin-left: 150px;
+}
+.myDogs:hover{
+  border: 2px solid yellow;
+}
+
+.myModal{
+  background: lightblue;
+  /* height: 100%; */
+  width : 100%;
+  display: none;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  z-index: 5;
+}
+.closeBar{
+  font-size: 25px;
+  cursor: pointer;
+}
+.jumbotrons{
+  font-size: 35px;
+  height: 300px;
+  padding-top:20px;
+  padding-left: 200px;
+}
+.modalDog{
+  width: 60%;
+}
+
+.carousel{
+  width: 600px;
+  height: 400px;
+  margin-left: 80px;
+}
+
+/* .slide{
+  width: 700px;
+  height: 500px;
+  margin-left: 50px;
+} */
